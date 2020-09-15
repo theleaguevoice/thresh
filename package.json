@@ -1,12 +1,22 @@
 {
-  "name": "leaguevoice-tresh",
+  "name": "leaguevoice-thresh",
   "version": "0.0.1",
   "description": "Hook into LCU APIs and listen to client events",
-  "main" : "dist/index.js",
-  "types" : "dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --declaration"
   },
+  "repository": {
+    "url": "https://github.com/theleaguevoice/thresh"
+  },
+  "bugs": {
+    "url": "https://github.com/theleaguevoice/status/issues"
+  },
+  "homepage": "https://github.com/theleaguevoice/thresh",
+  "os": [
+    "win32"
+  ],
   "author": "leaguevoice",
   "license": "MIT",
   "dependencies": {
